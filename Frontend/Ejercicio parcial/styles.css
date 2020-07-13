@@ -1,0 +1,20 @@
+body {
+    background-color: gray ;
+  }
+h1, h2, h3, h4{
+    color : red;
+}
+
+div.bold{
+    font-weight: bold;
+}
+div.center{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.teemo{
+    width: 300px;
+}
