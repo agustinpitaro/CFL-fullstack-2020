@@ -1,0 +1,25 @@
+p{
+    color: blue;
+  }
+  div{
+     font-weight: bold;
+  }
+  span{
+    color: cyan;
+  }
+  .destacada {
+    color:green;
+  }
+  p.destacada {
+    color:orange;
+  }
+  p#unico{
+    color:red;
+  }
+a.link{
+    color:yellow;
+}
+a.link:hover{
+    color:blue;
+}
+  
