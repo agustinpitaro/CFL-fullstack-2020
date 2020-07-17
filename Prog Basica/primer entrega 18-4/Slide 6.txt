@@ -1,0 +1,35 @@
+1)Entrada:
+    Dato 1: 1erNumero
+    Dato 2: 2doNumero
+Proceso:
+    1erNumero + 2doNumero = Resultado
+Salida
+    Resultado    
+
+2)Entrada:
+    Dato 1:Ingrediente 1
+    Dato 2:Ingrediente 2
+    ...
+    Dato n: Ingrediente n
+Proceso:
+    Mezclar ingredientes
+    Cocinar ingredientes
+    Decorar ingredientes
+Salida:
+    Tarta de frutilla
+
+3)Entrada:
+    Dato 1: Presion sistolica
+    Dato 2: Presion diastolica
+Proceso:
+    Si dato1 es mayor a 120 y dato2 es mayor a 80 salida=presionalta
+    sino es salida=presionnormal.
+Salida:
+    salida
+4)Entrada:
+    Dato 1: Bolsa de huevos
+Proceso:
+    Mientras haya huevos en la Bolsa
+        mover a la caja de huevos
+Salida:
+    caja llena? jaja
