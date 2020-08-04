@@ -1,0 +1,19 @@
+{
+  "name": "pruebanpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "servidor": "node index.js",
+    "imagen": "node image.js",
+    "time": "node time.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "image-size": "^0.8.3",
+    "time-in-words": "^1.1.0"
+  }
+}
