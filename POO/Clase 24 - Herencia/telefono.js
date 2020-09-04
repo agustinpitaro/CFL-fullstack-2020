@@ -17,10 +17,7 @@ var Telefono = /** @class */ (function () {
         this.bateriaActual = 100;
     }
     Telefono.prototype.prenderApagar = function () {
-        if (!this.estaPrendido)
-            this.estaPrendido = true;
-        else
-            this.estaPrendido = false;
+        this.estaPrendido = !this.estaPrendido;
     };
     Telefono.prototype.cargarBateria = function (carga) {
         if (this.bateriaActual + carga > 100)
