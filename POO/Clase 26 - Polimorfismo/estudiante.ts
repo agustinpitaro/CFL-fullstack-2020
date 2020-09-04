@@ -1,6 +1,6 @@
 import {Persona} from 'C:/Users/Agustin Pitaro/Documents/CFL fullstack-2020/CFL-fullstack-2020/POO/Clase 26 - Polimorfismo/persona';
 
-class Estudiante extends Persona{
+export class Estudiante extends Persona{
     private LU : number;
 
     public constructor(name : string, documento : number, LU : number){
@@ -24,4 +24,3 @@ class Estudiante extends Persona{
         return 'respuesta';
     }
 }
-export {Estudiante};

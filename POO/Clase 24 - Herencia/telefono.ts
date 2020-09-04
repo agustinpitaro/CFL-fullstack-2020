@@ -7,10 +7,7 @@ class Telefono{
         this.bateriaActual= 100;
     }
     public prenderApagar():void{
-        if (!this.estaPrendido)
-            this.estaPrendido = true;
-        else
-            this.estaPrendido = false;
+        this.estaPrendido = !this.estaPrendido;
     }
     public cargarBateria(carga:number):void{
         if (this.bateriaActual + carga > 100)

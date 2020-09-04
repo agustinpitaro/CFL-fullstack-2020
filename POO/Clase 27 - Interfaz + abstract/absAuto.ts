@@ -5,14 +5,10 @@ abstract class Auto2 {
         this.estaPrendido = false;
         this.velocidad = 0;
     }
-    abstract acelerar(): void;
+    abstract acelerar();
     abstract frenar();
     private prenderApagar() {
-        if (this.estaPrendido == true) {
-            this.estaPrendido = false;
-        } else {
-            this.estaPrendido = true;
-        }
+        this.estaPrendido = !this.estaPrendido;
     }
 }
 class AutoCiudad extends Auto2 {
@@ -28,10 +24,9 @@ class AutoCiudad extends Auto2 {
 }
 class AutoDeportivo extends Auto2 {
     public acelerar() {
-        if (this.estaPrendido == false) {
-            this.estaPrendido = true;
-        }
-        this.velocidad += 50;
+        if (this.estaPrendido == true) {
+            this.velocidad += 50;
+        } 
     }
     public frenar() {
         this.velocidad -= 50;
@@ -39,10 +34,9 @@ class AutoDeportivo extends Auto2 {
 }
 class Camioneta extends Auto2 {
     public acelerar() {
-        if (this.estaPrendido == false) {
-            this.estaPrendido = true;
-        }
-        this.velocidad += 10;
+        if (this.estaPrendido == true) {
+            this.velocidad += 10;
+        } 
     }
     public frenar() {
         this.velocidad -= 10;
