@@ -1,4 +1,4 @@
-import {Persona} from 'C:/Users/Agustin Pitaro/Documents/CFL fullstack-2020/CFL-fullstack-2020/POO/Clase 26 - Polimorfismo/persona';
+import {Persona} from '../Clase 26 - Polimorfismo/persona';
 
 export class Estudiante extends Persona{
     private LU : number;
