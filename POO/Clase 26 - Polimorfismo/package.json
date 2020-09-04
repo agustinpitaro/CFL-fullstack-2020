@@ -1,0 +1,12 @@
+{
+  "name": "instututo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "instituto.js",
+  "scripts": {
+    "rebuild": "tsc persona.ts && tsc estudiante.ts && tsc profesor.ts && tsc instituto.ts",
+    "start" : "node instituto.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "reg.automotor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "regAutomotor.js",
+  "scripts": {
+    "rebuild": "tsc telefono.ts && tsc regAutomotor.ts",
+    "telefono": "node telefono.js",
+    "regAutomotor": "node regAutomotor.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
